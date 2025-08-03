@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IGNOU BCA Course Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #dbe9f4, #ffffff);
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2, h3 {
+      color: #003366;
+    }
+    ul {
+      padding-left: 1rem;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    ul li a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    ul li a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #003366;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IGNOU BCA Course Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="https://www.ignou.ac.in/announcements/0?nav=6" target="_blank" style="color: yellow; font-weight: bold;">📢 Announcements</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Project</a></li>
+        <li><a href="aboutbca.html">About BCA</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to IGNOU BCA CMS</h2>
+      <p>Welcome to the <strong>IGNOU BCA Course Management System</strong>, your all-in-one solution for managing and accessing important academic resources throughout your BCA journey. Whether you're in your first semester or approaching your final exams, this platform is designed to help you stay organized and well-prepared.</p>
+      <p>This website provides centralized access to IGNOU BCA resources like official books, hand-picked YouTube lectures, assignment links, and previous year questions (PYQs), all categorized semester-wise for your convenience.</p>
+    </section>
+
+    <section>
+      <h3>Semester-Wise Resources</h3>
+      <ul>
+        <li><a href="semester1.php">Semester 1</a></li>
+        <li><a href="semester2.php">Semester 2</a></li>
+        <li><a href="semester3.php">Semester 3</a></li>
+        <li><a href="semester4.php">Semester 4</a></li>
+        <li><a href="semester5.php">Semester 5</a></li>
+        <li><a href="semester6.php">Semester 6</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3> IGNOU BCA Syllabus (2025)</h3>
+      <p>Here is a detailed syllabus of the BCA program including subject codes, names, and credits:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Semester</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>BCS-011</td><td>Computer Basics and PC Software</td><td>4</td></tr>
+          <tr><td>1</td><td>BCS-012</td><td>Mathematics</td><td>4</td></tr>
+          <tr><td>1</td><td>FEG-2</td><td>Foundation Course in English-II</td><td>4</td></tr>: 
+          <tr><td>1</td><td>BCSL-013</td><td>Computer Basics Lab</td><td>2</td></tr>
+          <tr><td>1</td><td>MTE-01</td><td>Mathematics (Foundation)</td><td>4</td></tr>
+          <tr><td>1</td><td>FCIT</td><td>Foundation Course in IT</td><td>2</td></tr>
+          <tr><td>2</td><td>ECO-01</td><td>Business Organization</td><td>4</td></tr>
+          <tr><td>2</td><td>MCS-011</td><td>Problem Solving and Programming</td><td>4</td></tr>
+          <tr><td>2</td><td>MCS-012</td><td>Computer Organization and Assembly Language</td><td>4</td></tr>
+          <tr><td>2</td><td>BCSL-021</td><td>Programming Lab</td><td>2</td></tr>
+          <tr><td>3</td><td>MCS-013</td><td>Discrete Mathematics</td><td>4</td></tr>
+          <tr><td>3</td><td>MCS-015</td><td>Communication Skills</td><td>2</td></tr>
+          <tr><td>3</td><td>MCS-021</td><td>Data and File Structures</td><td>4</td></tr>
+          <tr><td>3</td><td>BCSL-032</td><td>Data Structures Lab</td><td>2</td></tr>
+          <tr><td>4</td><td>MCS-014</td><td>Systems Analysis and Design</td><td>4</td></tr>
+          <tr><td>4</td><td>MCS-022</td><td>Operating System Concepts</td><td>4</td></tr>
+          <tr><td>4</td><td>MCS-024</td><td>Object Oriented Technologies</td><td>3</td></tr>
+          <tr><td>4</td><td>BCSL-041</td><td>OOP Lab</td><td>2</td></tr>
+          <tr><td>5</td><td>MCS-023</td><td>Database Management Systems</td><td>4</td></tr>
+          <tr><td>5</td><td>MCS-025</td><td>Software Engineering</td><td>3</td></tr>
+          <tr><td>5</td><td>MCSL-016</td><td>DBMS Lab</td><td>2</td></tr>
+          <tr><td>5</td><td>MCSL-017</td><td>Software Engineering Lab</td><td>2</td></tr>
+          <tr><td>6</td><td>MCS-028</td><td>AI and Applications</td><td>4</td></tr>
+          <tr><td>6</td><td>MCS-026</td><td>Network Programming and Administration</td><td>4</td></tr>
+          <tr><td>6</td><td>BCS-052</td><td>Project</td><td>4</td></tr>
+          <tr><td>6</td><td>BCSP-064</td><td>Project Work</td><td>8</td></tr>
+        </tbody>
+      </table>
+     
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 IGNOU BCA CMS | Made by Midhat Fatima</p>
+  </footer>
+</body>
+</html>
